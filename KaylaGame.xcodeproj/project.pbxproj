@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB457FC81DF4C874005C23EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FC71DF4C874005C23EE /* AppDelegate.swift */; };
+		BB457FCA1DF4C874005C23EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FC91DF4C874005C23EE /* ViewController.swift */; };
+		BB457FCD1DF4C874005C23EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB457FCB1DF4C874005C23EE /* Main.storyboard */; };
+		BB457FCF1DF4C874005C23EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB457FCE1DF4C874005C23EE /* Assets.xcassets */; };
+		BB457FD21DF4C874005C23EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB457FD01DF4C874005C23EE /* LaunchScreen.storyboard */; };
+		BB457FDD1DF4C874005C23EE /* KaylaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */; };
+		BB457FE81DF4C874005C23EE /* KaylaGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB457FD91DF4C874005C23EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB457FBC1DF4C873005C23EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB457FC31DF4C873005C23EE;
+			remoteInfo = KaylaGame;
+		};
+		BB457FE41DF4C874005C23EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB457FBC1DF4C873005C23EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB457FC31DF4C873005C23EE;
+			remoteInfo = KaylaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB457FC41DF4C874005C23EE /* KaylaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaylaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB457FC71DF4C874005C23EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB457FC91DF4C874005C23EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB457FCC1DF4C874005C23EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB457FCE1DF4C874005C23EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB457FD11DF4C874005C23EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB457FD31DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaylaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaylaGameTests.swift; sourceTree = "<group>"; };
+		BB457FDE1DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaylaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaylaGameUITests.swift; sourceTree = "<group>"; };
+		BB457FE91DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB457FC11DF4C873005C23EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FD51DF4C874005C23EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FE01DF4C874005C23EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB457FBB1DF4C873005C23EE = {
+			isa = PBXGroup;
+			children = (
+				BB457FC61DF4C874005C23EE /* KaylaGame */,
+				BB457FDB1DF4C874005C23EE /* KaylaGameTests */,
+				BB457FE61DF4C874005C23EE /* KaylaGameUITests */,
+				BB457FC51DF4C874005C23EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB457FC51DF4C874005C23EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB457FC41DF4C874005C23EE /* KaylaGame.app */,
+				BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */,
+				BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB457FC61DF4C874005C23EE /* KaylaGame */ = {
+			isa = PBXGroup;
+			children = (
+				BB457FC71DF4C874005C23EE /* AppDelegate.swift */,
+				BB457FC91DF4C874005C23EE /* ViewController.swift */,
+				BB457FCB1DF4C874005C23EE /* Main.storyboard */,
+				BB457FCE1DF4C874005C23EE /* Assets.xcassets */,
+				BB457FD01DF4C874005C23EE /* LaunchScreen.storyboard */,
+				BB457FD31DF4C874005C23EE /* Info.plist */,
+			);
+			path = KaylaGame;
+			sourceTree = "<group>";
+		};
+		BB457FDB1DF4C874005C23EE /* KaylaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */,
+				BB457FDE1DF4C874005C23EE /* Info.plist */,
+			);
+			path = KaylaGameTests;
+			sourceTree = "<group>";
+		};
+		BB457FE61DF4C874005C23EE /* KaylaGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */,
+				BB457FE91DF4C874005C23EE /* Info.plist */,
+			);
+			path = KaylaGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB457FC31DF4C873005C23EE /* KaylaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGame" */;
+			buildPhases = (
+				BB457FC01DF4C873005C23EE /* Sources */,
+				BB457FC11DF4C873005C23EE /* Frameworks */,
+				BB457FC21DF4C873005C23EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaylaGame;
+			productName = KaylaGame;
+			productReference = BB457FC41DF4C874005C23EE /* KaylaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB457FD71DF4C874005C23EE /* KaylaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameTests" */;
+			buildPhases = (
+				BB457FD41DF4C874005C23EE /* Sources */,
+				BB457FD51DF4C874005C23EE /* Frameworks */,
+				BB457FD61DF4C874005C23EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB457FDA1DF4C874005C23EE /* PBXTargetDependency */,
+			);
+			name = KaylaGameTests;
+			productName = KaylaGameTests;
+			productReference = BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB457FE21DF4C874005C23EE /* KaylaGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameUITests" */;
+			buildPhases = (
+				BB457FDF1DF4C874005C23EE /* Sources */,
+				BB457FE01DF4C874005C23EE /* Frameworks */,
+				BB457FE11DF4C874005C23EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB457FE51DF4C874005C23EE /* PBXTargetDependency */,
+			);
+			name = KaylaGameUITests;
+			productName = KaylaGameUITests;
+			productReference = BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB457FBC1DF4C873005C23EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kayla Schmitt";
+				TargetAttributes = {
+					BB457FC31DF4C873005C23EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BB457FD71DF4C874005C23EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB457FC31DF4C873005C23EE;
+					};
+					BB457FE21DF4C874005C23EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB457FC31DF4C873005C23EE;
+					};
+				};
+			};
+			buildConfigurationList = BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "KaylaGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB457FBB1DF4C873005C23EE;
+			productRefGroup = BB457FC51DF4C874005C23EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB457FC31DF4C873005C23EE /* KaylaGame */,
+				BB457FD71DF4C874005C23EE /* KaylaGameTests */,
+				BB457FE21DF4C874005C23EE /* KaylaGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB457FC21DF4C873005C23EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB457FD21DF4C874005C23EE /* LaunchScreen.storyboard in Resources */,
+				BB457FCF1DF4C874005C23EE /* Assets.xcassets in Resources */,
+				BB457FCD1DF4C874005C23EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FD61DF4C874005C23EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FE11DF4C874005C23EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB457FC01DF4C873005C23EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB457FCA1DF4C874005C23EE /* ViewController.swift in Sources */,
+				BB457FC81DF4C874005C23EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FD41DF4C874005C23EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB457FDD1DF4C874005C23EE /* KaylaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB457FDF1DF4C874005C23EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB457FE81DF4C874005C23EE /* KaylaGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB457FDA1DF4C874005C23EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB457FC31DF4C873005C23EE /* KaylaGame */;
+			targetProxy = BB457FD91DF4C874005C23EE /* PBXContainerItemProxy */;
+		};
+		BB457FE51DF4C874005C23EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB457FC31DF4C873005C23EE /* KaylaGame */;
+			targetProxy = BB457FE41DF4C874005C23EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB457FCB1DF4C874005C23EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB457FCC1DF4C874005C23EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB457FD01DF4C874005C23EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB457FD11DF4C874005C23EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB457FEA1DF4C874005C23EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB457FEB1DF4C874005C23EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB457FED1DF4C874005C23EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaylaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BB457FEE1DF4C874005C23EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaylaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BB457FF01DF4C874005C23EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaylaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaylaGame.app/KaylaGame";
+			};
+			name = Debug;
+		};
+		BB457FF11DF4C874005C23EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaylaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaylaGame.app/KaylaGame";
+			};
+			name = Release;
+		};
+		BB457FF31DF4C874005C23EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaylaGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KaylaGame;
+			};
+			name = Debug;
+		};
+		BB457FF41DF4C874005C23EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaylaGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KaylaGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "KaylaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB457FEA1DF4C874005C23EE /* Debug */,
+				BB457FEB1DF4C874005C23EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB457FED1DF4C874005C23EE /* Debug */,
+				BB457FEE1DF4C874005C23EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB457FF01DF4C874005C23EE /* Debug */,
+				BB457FF11DF4C874005C23EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB457FF31DF4C874005C23EE /* Debug */,
+				BB457FF41DF4C874005C23EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB457FBC1DF4C873005C23EE /* Project object */;
+}
