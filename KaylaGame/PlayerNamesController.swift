@@ -25,6 +25,7 @@ class PlayerNamesController: UIViewController {
     var playerLabels: [UITextField] = []
     var activePlayerLabels: [UITextField] = []
     var players: [PlayerInfo] = []
+    var materials: [Materials]!
 
     @IBOutlet weak var playerNumText: UILabel!
     var numPlayers: Int!
@@ -69,6 +70,7 @@ class PlayerNamesController: UIViewController {
         if segue.identifier == "segue_MainGameController" {
             let vc = segue.destination as! MainGameController
             vc.players = players
+            vc.materials = materials
         }
     }
 
