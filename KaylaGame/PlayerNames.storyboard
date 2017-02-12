@@ -117,11 +117,20 @@
                         <outlet property="player7Label" destination="Cnf-8f-Diz" id="7tR-SU-ECj"/>
                         <outlet property="player8Label" destination="vXb-yQ-o8q" id="aOG-SH-Z6F"/>
                         <outlet property="player9Label" destination="PCh-rz-Yy1" id="T81-6v-fjs"/>
+                        <segue destination="2fG-cn-a3Z" kind="show" identifier="segue_MainGameController" id="fw8-ke-czT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJh-WN-VY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-47.200000000000003" y="103.89805097451276"/>
+        </scene>
+        <!--MainGame-->
+        <scene sceneID="d70-FC-bGC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MainGame" id="2fG-cn-a3Z" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZ7-1p-qcT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="352"/>
         </scene>
     </scenes>
 </document>

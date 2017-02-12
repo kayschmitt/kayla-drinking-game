@@ -1,5 +1,14 @@
 import UIKit
 
+struct PlayerInfo {
+    var name: String! = ""
+    var score: Int! = 0
+
+    init(nameInput: String) {
+        name = nameInput
+    }
+}
+
 class PlayerNamesController: UIViewController {
 
     @IBOutlet weak var player1Label: UITextField!
@@ -15,6 +24,7 @@ class PlayerNamesController: UIViewController {
 
     var playerLabels: [UITextField] = []
     var activePlayerLabels: [UITextField] = []
+    var players: [PlayerInfo] = []
 
     @IBOutlet weak var playerNumText: UILabel!
     var numPlayers: Int!
@@ -44,10 +54,21 @@ class PlayerNamesController: UIViewController {
         }
         if !fieldsFilled {
             let alert = UIAlertController(title: "Error", message: "Please enter all names!", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+            alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         } else {
-            // do stuff
+            for playerLabel in activePlayerLabels {
+                let player: PlayerInfo = PlayerInfo.init(nameInput: playerLabel.text!)
+                players.append(player)
+            }
+            performSegue(withIdentifier: "segue_MainGameController", sender: nil)
+        }
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
+        if segue.identifier == "segue_MainGameController" {
+            let vc = segue.destination as! MainGameController
+            vc.players = players
         }
     }
 
