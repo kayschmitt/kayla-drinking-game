@@ -54,8 +54,8 @@ class PlayerNamesController: UIViewController {
             }
         }
         if !fieldsFilled {
-            let alert = UIAlertController(title: "Error", message: "Please enter all names!", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "Hold Up!", message: "Please enter all names!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         } else {
             for playerLabel in activePlayerLabels {

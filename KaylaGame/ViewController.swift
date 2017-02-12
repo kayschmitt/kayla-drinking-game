@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var newL: UILabel!
     var numPlayers: Int = 0
-    var materials: [Materials] = [Materials.init(nameInput: "Dice"), Materials.init(nameInput: "Cards"), Materials.init(nameInput: "Cups"), Materials.init(nameInput: "Ping Pong Balls")]
+    var materials: [Materials] = [Materials.init(nameInput: "Dice"), Materials.init(nameInput: "Cards"), Materials.init(nameInput: "Cups")]
     var checkedMaterials: [String] = []
 
     override func viewDidLoad() {
