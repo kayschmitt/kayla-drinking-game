@@ -40,7 +40,7 @@ class PlayerNamesController: UIViewController {
         if numPlayers > 2 {
             for i in 2 ... numPlayers - 1 {
                 playerLabels[i].isHidden = false
-                playerLabels.append(playerLabels[i])
+                activePlayerLabels.append(playerLabels[i])
             }
         }
     }
