@@ -54,8 +54,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
         cell.textLabel?.text = materials[indexPath.row].name
-        // cell.accessoryType = cell.isSelected ? .checkmark : .none
-        cell.selectionStyle = .none // to prevent cells from being "highlighted"
+        cell.selectionStyle = .none
+        cell.backgroundColor = UIColor(red:0.93, green:0.95, blue:0.96, alpha:1.0)
         return cell
     }
 

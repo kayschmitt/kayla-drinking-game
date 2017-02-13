@@ -16,8 +16,6 @@
 		BB457FCD1DF4C874005C23EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB457FCB1DF4C874005C23EE /* Main.storyboard */; };
 		BB457FCF1DF4C874005C23EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB457FCE1DF4C874005C23EE /* Assets.xcassets */; };
 		BB457FD21DF4C874005C23EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB457FD01DF4C874005C23EE /* LaunchScreen.storyboard */; };
-		BB457FDD1DF4C874005C23EE /* KaylaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */; };
-		BB457FE81DF4C874005C23EE /* KaylaGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +40,16 @@
 		BB0F340A1E50043900E98C3B /* PlayerNamesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNamesController.swift; sourceTree = "<group>"; };
 		BB0F340C1E501B9600E98C3B /* MainGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameController.swift; sourceTree = "<group>"; };
 		BB0F340E1E501B9F00E98C3B /* MainGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainGame.storyboard; sourceTree = "<group>"; };
-		BB457FC41DF4C874005C23EE /* KaylaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaylaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB457FC41DF4C874005C23EE /* Intoxify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intoxify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB457FC71DF4C874005C23EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB457FC91DF4C874005C23EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB457FCC1DF4C874005C23EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB457FCE1DF4C874005C23EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB457FD11DF4C874005C23EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB457FD31DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaylaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaylaGameTests.swift; sourceTree = "<group>"; };
+		BB457FD81DF4C874005C23EE /* IntoxifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntoxifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB457FDE1DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaylaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaylaGameUITests.swift; sourceTree = "<group>"; };
+		BB457FE31DF4C874005C23EE /* IntoxifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntoxifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB457FE91DF4C874005C23EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,9 +81,9 @@
 		BB457FBB1DF4C873005C23EE = {
 			isa = PBXGroup;
 			children = (
-				BB457FC61DF4C874005C23EE /* KaylaGame */,
-				BB457FDB1DF4C874005C23EE /* KaylaGameTests */,
-				BB457FE61DF4C874005C23EE /* KaylaGameUITests */,
+				BB457FC61DF4C874005C23EE /* Intoxify */,
+				BB457FDB1DF4C874005C23EE /* Intoxify */,
+				BB457FE61DF4C874005C23EE /* IntoxifyUITests */,
 				BB457FC51DF4C874005C23EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +91,14 @@
 		BB457FC51DF4C874005C23EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB457FC41DF4C874005C23EE /* KaylaGame.app */,
-				BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */,
-				BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */,
+				BB457FC41DF4C874005C23EE /* Intoxify.app */,
+				BB457FD81DF4C874005C23EE /* IntoxifyTests.xctest */,
+				BB457FE31DF4C874005C23EE /* IntoxifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB457FC61DF4C874005C23EE /* KaylaGame */ = {
+		BB457FC61DF4C874005C23EE /* Intoxify */ = {
 			isa = PBXGroup;
 			children = (
 				BB457FC71DF4C874005C23EE /* AppDelegate.swift */,
@@ -116,33 +112,34 @@
 				BB0F340C1E501B9600E98C3B /* MainGameController.swift */,
 				BB0F340E1E501B9F00E98C3B /* MainGame.storyboard */,
 			);
+			name = Intoxify;
 			path = KaylaGame;
 			sourceTree = "<group>";
 		};
-		BB457FDB1DF4C874005C23EE /* KaylaGameTests */ = {
+		BB457FDB1DF4C874005C23EE /* Intoxify */ = {
 			isa = PBXGroup;
 			children = (
-				BB457FDC1DF4C874005C23EE /* KaylaGameTests.swift */,
 				BB457FDE1DF4C874005C23EE /* Info.plist */,
 			);
+			name = Intoxify;
 			path = KaylaGameTests;
 			sourceTree = "<group>";
 		};
-		BB457FE61DF4C874005C23EE /* KaylaGameUITests */ = {
+		BB457FE61DF4C874005C23EE /* IntoxifyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BB457FE71DF4C874005C23EE /* KaylaGameUITests.swift */,
 				BB457FE91DF4C874005C23EE /* Info.plist */,
 			);
+			name = IntoxifyUITests;
 			path = KaylaGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB457FC31DF4C873005C23EE /* KaylaGame */ = {
+		BB457FC31DF4C873005C23EE /* Intoxify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGame" */;
+			buildConfigurationList = BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "Intoxify" */;
 			buildPhases = (
 				BB457FC01DF4C873005C23EE /* Sources */,
 				BB457FC11DF4C873005C23EE /* Frameworks */,
@@ -152,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = KaylaGame;
+			name = Intoxify;
 			productName = KaylaGame;
-			productReference = BB457FC41DF4C874005C23EE /* KaylaGame.app */;
+			productReference = BB457FC41DF4C874005C23EE /* Intoxify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB457FD71DF4C874005C23EE /* KaylaGameTests */ = {
+		BB457FD71DF4C874005C23EE /* IntoxifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameTests" */;
+			buildConfigurationList = BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "IntoxifyTests" */;
 			buildPhases = (
 				BB457FD41DF4C874005C23EE /* Sources */,
 				BB457FD51DF4C874005C23EE /* Frameworks */,
@@ -170,14 +167,14 @@
 			dependencies = (
 				BB457FDA1DF4C874005C23EE /* PBXTargetDependency */,
 			);
-			name = KaylaGameTests;
+			name = IntoxifyTests;
 			productName = KaylaGameTests;
-			productReference = BB457FD81DF4C874005C23EE /* KaylaGameTests.xctest */;
+			productReference = BB457FD81DF4C874005C23EE /* IntoxifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BB457FE21DF4C874005C23EE /* KaylaGameUITests */ = {
+		BB457FE21DF4C874005C23EE /* IntoxifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameUITests" */;
+			buildConfigurationList = BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "IntoxifyUITests" */;
 			buildPhases = (
 				BB457FDF1DF4C874005C23EE /* Sources */,
 				BB457FE01DF4C874005C23EE /* Frameworks */,
@@ -188,9 +185,9 @@
 			dependencies = (
 				BB457FE51DF4C874005C23EE /* PBXTargetDependency */,
 			);
-			name = KaylaGameUITests;
+			name = IntoxifyUITests;
 			productName = KaylaGameUITests;
-			productReference = BB457FE31DF4C874005C23EE /* KaylaGameUITests.xctest */;
+			productReference = BB457FE31DF4C874005C23EE /* IntoxifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "KaylaGame" */;
+			buildConfigurationList = BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "Intoxify" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB457FC31DF4C873005C23EE /* KaylaGame */,
-				BB457FD71DF4C874005C23EE /* KaylaGameTests */,
-				BB457FE21DF4C874005C23EE /* KaylaGameUITests */,
+				BB457FC31DF4C873005C23EE /* Intoxify */,
+				BB457FD71DF4C874005C23EE /* IntoxifyTests */,
+				BB457FE21DF4C874005C23EE /* IntoxifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB457FDD1DF4C874005C23EE /* KaylaGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB457FE81DF4C874005C23EE /* KaylaGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +296,12 @@
 /* Begin PBXTargetDependency section */
 		BB457FDA1DF4C874005C23EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB457FC31DF4C873005C23EE /* KaylaGame */;
+			target = BB457FC31DF4C873005C23EE /* Intoxify */;
 			targetProxy = BB457FD91DF4C874005C23EE /* PBXContainerItemProxy */;
 		};
 		BB457FE51DF4C874005C23EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB457FC31DF4C873005C23EE /* KaylaGame */;
+			target = BB457FC31DF4C873005C23EE /* Intoxify */;
 			targetProxy = BB457FE41DF4C874005C23EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaylaGame.app/KaylaGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intoxify.app/Intoxify";
 			};
 			name = Debug;
 		};
@@ -472,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kayschmitt.KaylaGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaylaGame.app/KaylaGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intoxify.app/Intoxify";
 			};
 			name = Release;
 		};
@@ -505,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "KaylaGame" */ = {
+		BB457FBF1DF4C873005C23EE /* Build configuration list for PBXProject "Intoxify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB457FEA1DF4C874005C23EE /* Debug */,
@@ -514,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGame" */ = {
+		BB457FEC1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "Intoxify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB457FED1DF4C874005C23EE /* Debug */,
@@ -523,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameTests" */ = {
+		BB457FEF1DF4C874005C23EE /* Build configuration list for PBXNativeTarget "IntoxifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB457FF01DF4C874005C23EE /* Debug */,
@@ -532,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "KaylaGameUITests" */ = {
+		BB457FF21DF4C874005C23EE /* Build configuration list for PBXNativeTarget "IntoxifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB457FF31DF4C874005C23EE /* Debug */,

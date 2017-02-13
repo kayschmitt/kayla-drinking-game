@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB457FC31DF4C873005C23EE"
-               BuildableName = "KaylaGame.app"
-               BlueprintName = "KaylaGame"
-               ReferencedContainer = "container:KaylaGame.xcodeproj">
+               BuildableName = "Intoxify.app"
+               BlueprintName = "Intoxify"
+               ReferencedContainer = "container:Intoxify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB457FD71DF4C874005C23EE"
-               BuildableName = "KaylaGameTests.xctest"
-               BlueprintName = "KaylaGameTests"
-               ReferencedContainer = "container:KaylaGame.xcodeproj">
+               BuildableName = "IntoxifyTests.xctest"
+               BlueprintName = "IntoxifyTests"
+               ReferencedContainer = "container:Intoxify.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB457FE21DF4C874005C23EE"
-               BuildableName = "KaylaGameUITests.xctest"
-               BlueprintName = "KaylaGameUITests"
-               ReferencedContainer = "container:KaylaGame.xcodeproj">
+               BuildableName = "IntoxifyUITests.xctest"
+               BlueprintName = "IntoxifyUITests"
+               ReferencedContainer = "container:Intoxify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB457FC31DF4C873005C23EE"
-            BuildableName = "KaylaGame.app"
-            BlueprintName = "KaylaGame"
-            ReferencedContainer = "container:KaylaGame.xcodeproj">
+            BuildableName = "Intoxify.app"
+            BlueprintName = "Intoxify"
+            ReferencedContainer = "container:Intoxify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB457FC31DF4C873005C23EE"
-            BuildableName = "KaylaGame.app"
-            BlueprintName = "KaylaGame"
-            ReferencedContainer = "container:KaylaGame.xcodeproj">
+            BuildableName = "Intoxify.app"
+            BlueprintName = "Intoxify"
+            ReferencedContainer = "container:Intoxify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB457FC31DF4C873005C23EE"
-            BuildableName = "KaylaGame.app"
-            BlueprintName = "KaylaGame"
-            ReferencedContainer = "container:KaylaGame.xcodeproj">
+            BuildableName = "Intoxify.app"
+            BlueprintName = "Intoxify"
+            ReferencedContainer = "container:Intoxify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
